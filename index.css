@@ -1,0 +1,54 @@
+*{
+    background-color: #2c2c2c;
+}
+body {
+    padding-top: 50px;
+    color: white;
+}
+table {
+    width:50%;
+    height: 100px;
+    margin: 30px 40px;
+    text-align: left;
+    table-layout: fixed;
+    border: 1px solid #525252;
+    border-radius: 4px;
+    border-spacing: 0;
+}
+th, td {
+    padding: 10px;
+    height: 25px;
+    border-bottom: 1px solid#525252;
+}
+.dot {
+    text-align: right;
+}
+.icon {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: -3px;
+}
+.search-img {
+    margin-top: 5px;
+    margin-bottom: auto;
+    margin-right: 10px;
+    height: 12px;
+}
+.search,
+input {
+    background-color: #2e2e2e;
+    border-radius: 5px;
+    border: hidden;
+}
+input {
+    max-width: 150px;
+}
+.box {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
